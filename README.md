@@ -1,6 +1,6 @@
 # Elzero Web School - Interests Boxes Select
 
-!(./screenshot.png)
+![Design preview for the Product preview card component coding challenge](./screenshot.png)
 
 ## Welcome! 👋
 
