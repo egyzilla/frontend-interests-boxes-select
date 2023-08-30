@@ -23,11 +23,14 @@ html {
 
 .egyzilla {
   width: 100%;
-  padding: 1.5rem 20rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
 }
 
 .header {
-  width: 100%;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -196,5 +199,19 @@ input[type="checkbox"]:checked::before {
 .choose-box img {
   width: 60px;
   margin-bottom: 5px;
+}
 
+/* media */
+@media (max-width: 412px) {
+  .header {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .choose-boxs {
+    grid-template-columns: repeat(2, auto);
+    
+  }
 }
