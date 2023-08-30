@@ -1,6 +1,6 @@
 # Elzero Web School - Interests Boxes Select
 
-![Design preview for the Single price grid component coding challenge](./screenshot.png)
+!(./screenshot.png)
 
 ## Welcome! 👋
 
